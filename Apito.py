@@ -1,2 +1,4 @@
 class Apito:
-    pass
+    @staticmethod
+    def grasnar():
+        return "QUACK QUACK!!"
