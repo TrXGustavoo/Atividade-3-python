@@ -1,4 +1,4 @@
-from interfaces import PadraoVoaveis
+from padrao_voaveis import PadraoVoaveis
 
 class VoarFoguete(PadraoVoaveis):
     def __init__(self):

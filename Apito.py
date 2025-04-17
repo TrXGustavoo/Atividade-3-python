@@ -1,0 +1,2 @@
+class Apito:
+    pass

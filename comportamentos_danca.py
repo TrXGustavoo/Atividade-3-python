@@ -1,4 +1,4 @@
-from interfaces import PadraoDancar
+from padrao_dancar import PadraoDancar
 
 class Danca_Tango(PadraoDancar):
     def __init__(self):

@@ -17,6 +17,7 @@ if __name__ == "__main__":
     print(pato2.realizar_voo())
     print(pato2.grasnar())
     print(pato2.realizar_danca())
+    print(pato2.pular())
     
     print("------")
     
