@@ -7,7 +7,7 @@ class Pato(ABC) :
         self.comportamento_dancar = comportamento_dancar
         self.comportamento_pular= comportamento_pular
 
-    def nadar(self):
+    def realizar_nadar(self):
         return "Pato Nadando."
 
     def realizar_voo(self):
@@ -20,5 +20,5 @@ class Pato(ABC) :
         return self.comportamento_pular.pular()
 
     @abstractmethod
-    def mostrar(self):
+    def realizar_mostrar(self):
         pass

@@ -11,8 +11,8 @@ class PatoBravo(Pato):
     def pular(self):
         return self.comportamento_pular.pular()
 
-    def mostrar(self):
+    def realizar_mostrar(self):
         return "Eu sou o Pato Bravo."
 
-    def grasnar(self):
+    def realizar_grasnar(self):
         return self.grasnado()
